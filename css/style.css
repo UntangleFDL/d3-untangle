@@ -1,0 +1,51 @@
+
+.page {
+    padding: 20px
+}
+
+.label_text {
+    font-size: 10pt;
+    font-family: Arial,serif;
+    text-anchor: middle;
+    cursor: move;
+}
+
+.axis{
+    fill: #000;
+    text-anchor: end;
+}
+
+.y_axis {
+    transform: rotate(-90deg);
+}
+
+.x_axis { }
+
+.label_rect {
+    fill-opacity: .85;
+    fill: white;
+    stroke-width: 2;
+    cursor: move;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* background-color: #474747; */
+    /* color: white; */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 200ms ease-in;
+}
+
+.btn-filled {
+    background-color: #474747;
+    color: white;
+}
+
+.btn-empty {
+    background-color: white;
+    color: #474747;
+    border:#474747 2px solid;
+}
