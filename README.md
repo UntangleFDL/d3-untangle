@@ -18,7 +18,7 @@ Bhavana Doppalapudi, University of South Florida<br>
 
 ## To run the demo:
 
-We have tested this setup on Mac, Linux, and Windows 11 distributions. 
+To run properly, the code needs to be hosted on a webserver and loaded in a web browser. These instructions are for running a webserver locally with python. We have tested this setup on Mac, Linux, and Windows 11 distributions. 
 
 ### [required] Install python3
 
@@ -39,7 +39,7 @@ We have tested this setup on Mac, Linux, and Windows 11 distributions.
     
     Everything should be installed and the code will run. If everything goes as planned, a web browser will be opened automatically for you when everything is done. If it doesn't, you can open a web browser and go to http://localhost:5350/.
 
-    
+
 ## Citation
 
 Bhavana Doppalapudi, Bei Wang, and Paul Rosen. *Untangling Force-Directed Layouts Using Persistent Homology*, IEEE Workshop on Topological Data Analysis and Visualization (TopoInVis), 2022. <a href="https://arxiv.org/abs/2208.06927">https://arxiv.org/abs/2208.06927</a>
